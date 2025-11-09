@@ -1,0 +1,133 @@
+{
+    ".": {
+        "dirs": [
+            ".git"
+        ],
+        "files": [
+            "README"
+        ]
+    },
+    ".git": {
+        "dirs": [
+            "hooks",
+            "info",
+            "logs",
+            "objects",
+            "refs"
+        ],
+        "files": [
+            "config",
+            "description",
+            "HEAD",
+            "index",
+            "packed-refs"
+        ]
+    },
+    ".git\\hooks": {
+        "dirs": [],
+        "files": [
+            "applypatch-msg.sample",
+            "commit-msg.sample",
+            "fsmonitor-watchman.sample",
+            "post-update.sample",
+            "pre-applypatch.sample",
+            "pre-commit.sample",
+            "pre-merge-commit.sample",
+            "pre-push.sample",
+            "pre-rebase.sample",
+            "pre-receive.sample",
+            "prepare-commit-msg.sample",
+            "push-to-checkout.sample",
+            "sendemail-validate.sample",
+            "update.sample"
+        ]
+    },
+    ".git\\info": {
+        "dirs": [],
+        "files": [
+            "exclude"
+        ]
+    },
+    ".git\\logs": {
+        "dirs": [
+            "refs"
+        ],
+        "files": [
+            "HEAD"
+        ]
+    },
+    ".git\\logs\\refs": {
+        "dirs": [
+            "heads",
+            "remotes"
+        ],
+        "files": []
+    },
+    ".git\\logs\\refs\\heads": {
+        "dirs": [],
+        "files": [
+            "master"
+        ]
+    },
+    ".git\\logs\\refs\\remotes": {
+        "dirs": [
+            "origin"
+        ],
+        "files": []
+    },
+    ".git\\logs\\refs\\remotes\\origin": {
+        "dirs": [],
+        "files": [
+            "HEAD"
+        ]
+    },
+    ".git\\objects": {
+        "dirs": [
+            "info",
+            "pack"
+        ],
+        "files": []
+    },
+    ".git\\objects\\info": {
+        "dirs": [],
+        "files": []
+    },
+    ".git\\objects\\pack": {
+        "dirs": [],
+        "files": [
+            "pack-4c896b8791f3d0428d33aba9fae75b721ae26615.idx",
+            "pack-4c896b8791f3d0428d33aba9fae75b721ae26615.pack",
+            "pack-4c896b8791f3d0428d33aba9fae75b721ae26615.rev"
+        ]
+    },
+    ".git\\refs": {
+        "dirs": [
+            "heads",
+            "remotes",
+            "tags"
+        ],
+        "files": []
+    },
+    ".git\\refs\\heads": {
+        "dirs": [],
+        "files": [
+            "master"
+        ]
+    },
+    ".git\\refs\\remotes": {
+        "dirs": [
+            "origin"
+        ],
+        "files": []
+    },
+    ".git\\refs\\remotes\\origin": {
+        "dirs": [],
+        "files": [
+            "HEAD"
+        ]
+    },
+    ".git\\refs\\tags": {
+        "dirs": [],
+        "files": []
+    }
+}

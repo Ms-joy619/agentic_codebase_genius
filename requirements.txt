@@ -1,0 +1,11 @@
+﻿jaclang
+python-dotenv
+GitPython
+tree_sitter
+graphviz
+networkx
+markdown
+jinja2
+flask
+requests
+pyyaml
