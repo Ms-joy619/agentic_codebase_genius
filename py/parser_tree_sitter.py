@@ -1,16 +1,17 @@
-﻿import ast
-import os
-import json
+﻿import os, ast, json
 
-REPO_PATH = "repos/Hello-World"
+REPO_PATH = "repos/requests"
 OUTPUT_FILE = "parsed_simple.json"
 
 def parse_file(path):
     with open(path, "r", encoding="utf8", errors="ignore") as f:
-        tree = ast.parse(f.read(), filename=path)
-    funcs = [node.name for node in ast.walk(tree) if isinstance(node, ast.FunctionDef)]
-    classes = [node.name for node in ast.walk(tree) if isinstance(node, ast.ClassDef)]
-    return {"functions": funcs, "classes": classes}
+        try:
+            tree = ast.parse(f.read(), filename=path)
+            funcs = [node.name for node in ast.walk(tree) if isinstance(node, ast.FunctionDef)]
+            classes = [node.name for node in ast.walk(tree) if isinstance(node, ast.ClassDef)]
+            return {"functions": funcs, "classes": classes}
+        except Exception as e:
+            return {"error": str(e)}
 
 def parse_repo(repo_path):
     data = {}
